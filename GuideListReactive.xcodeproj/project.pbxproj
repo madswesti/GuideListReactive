@@ -14,6 +14,7 @@
 		7475F65D22723AA500CDADFA /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7475F65C22723AA500CDADFA /* Endpoint.swift */; };
 		7475F65F22723ABE00CDADFA /* NetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7475F65E22723ABD00CDADFA /* NetworkClient.swift */; };
 		7475F66122723B3700CDADFA /* Guide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7475F66022723B3700CDADFA /* Guide.swift */; };
+		7475F66322723B5500CDADFA /* XCTestCase+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7475F66222723B5500CDADFA /* XCTestCase+Extensions.swift */; };
 		74905E88227184FC0062204C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74905E87227184FC0062204C /* AppDelegate.swift */; };
 		74905E8F227185000062204C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74905E8E227185000062204C /* Assets.xcassets */; };
 		74905E92227185000062204C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74905E90227185000062204C /* LaunchScreen.storyboard */; };
@@ -52,6 +53,7 @@
 		7475F65C22723AA500CDADFA /* Endpoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
 		7475F65E22723ABD00CDADFA /* NetworkClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkClient.swift; sourceTree = "<group>"; };
 		7475F66022723B3700CDADFA /* Guide.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Guide.swift; sourceTree = "<group>"; };
+		7475F66222723B5500CDADFA /* XCTestCase+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "XCTestCase+Extensions.swift"; sourceTree = "<group>"; };
 		74905E84227184FC0062204C /* GuideList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuideList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		74905E87227184FC0062204C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		74905E8E227185000062204C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -127,6 +129,7 @@
 		7475F62222719C9000CDADFA /* UnitTests */ = {
 			isa = PBXGroup;
 			children = (
+				7475F66222723B5500CDADFA /* XCTestCase+Extensions.swift */,
 				7475F62522719C9000CDADFA /* Info.plist */,
 			);
 			path = UnitTests;
@@ -214,6 +217,7 @@
 				TargetAttributes = {
 					7475F62022719C9000CDADFA = {
 						CreatedOnToolsVersion = 10.2;
+						LastSwiftMigration = 1020;
 						TestTargetID = 74905E83227184FC0062204C;
 					};
 					74905E83227184FC0062204C = {
@@ -287,6 +291,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7475F66322723B5500CDADFA /* XCTestCase+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,6 +333,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 657YJAG5CW;
 				INFOPLIST_FILE = UnitTests/Info.plist;
@@ -338,6 +344,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = dk.madswesti.GuideListReactive.UnitTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GuideList.app/GuideList";
@@ -348,6 +355,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 657YJAG5CW;
 				INFOPLIST_FILE = UnitTests/Info.plist;
