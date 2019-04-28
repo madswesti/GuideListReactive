@@ -10,6 +10,9 @@
 		744888B022719902008629CA /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7456326C2271986D00716EE5 /* RxSwift.framework */; };
 		7475F657227239D600CDADFA /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7475F6552272399600CDADFA /* RxCocoa.framework */; };
 		7475F658227239D600CDADFA /* RxCocoa.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7475F6552272399600CDADFA /* RxCocoa.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7475F65B22723A6200CDADFA /* HttpMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7475F65A22723A6200CDADFA /* HttpMethod.swift */; };
+		7475F65D22723AA500CDADFA /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7475F65C22723AA500CDADFA /* Endpoint.swift */; };
+		7475F65F22723ABE00CDADFA /* NetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7475F65E22723ABD00CDADFA /* NetworkClient.swift */; };
 		74905E88227184FC0062204C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74905E87227184FC0062204C /* AppDelegate.swift */; };
 		74905E8F227185000062204C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74905E8E227185000062204C /* Assets.xcassets */; };
 		74905E92227185000062204C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74905E90227185000062204C /* LaunchScreen.storyboard */; };
@@ -44,6 +47,9 @@
 		7475F62122719C9000CDADFA /* UnitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7475F62522719C9000CDADFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7475F6552272399600CDADFA /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
+		7475F65A22723A6200CDADFA /* HttpMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpMethod.swift; sourceTree = "<group>"; };
+		7475F65C22723AA500CDADFA /* Endpoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		7475F65E22723ABD00CDADFA /* NetworkClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkClient.swift; sourceTree = "<group>"; };
 		74905E84227184FC0062204C /* GuideList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuideList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		74905E87227184FC0062204C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		74905E8E227185000062204C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -108,6 +114,9 @@
 		745EA122227187E10083FDF2 /* Networking */ = {
 			isa = PBXGroup;
 			children = (
+				7475F65E22723ABD00CDADFA /* NetworkClient.swift */,
+				7475F65C22723AA500CDADFA /* Endpoint.swift */,
+				7475F65A22723A6200CDADFA /* HttpMethod.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -282,7 +291,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7475F65B22723A6200CDADFA /* HttpMethod.swift in Sources */,
+				7475F65D22723AA500CDADFA /* Endpoint.swift in Sources */,
 				74905E88227184FC0062204C /* AppDelegate.swift in Sources */,
+				7475F65F22723ABE00CDADFA /* NetworkClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
