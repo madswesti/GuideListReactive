@@ -24,6 +24,7 @@
 		74F4A81822762EBA00E8829B /* GuideViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F4A81722762EBA00E8829B /* GuideViewModel.swift */; };
 		74F4A81A22762FF300E8829B /* GuideListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F4A81922762FF300E8829B /* GuideListViewModel.swift */; };
 		74F4A81D2276313200E8829B /* GuideTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F4A81C2276313200E8829B /* GuideTableViewCell.swift */; };
+		74F4A81F2276314E00E8829B /* GuidesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F4A81E2276314E00E8829B /* GuidesTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +72,7 @@
 		74F4A81722762EBA00E8829B /* GuideViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuideViewModel.swift; sourceTree = "<group>"; };
 		74F4A81922762FF300E8829B /* GuideListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuideListViewModel.swift; sourceTree = "<group>"; };
 		74F4A81C2276313200E8829B /* GuideTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuideTableViewCell.swift; sourceTree = "<group>"; };
+		74F4A81E2276314E00E8829B /* GuidesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuidesTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -218,6 +220,7 @@
 		74F4A81B2276313200E8829B /* Guides */ = {
 			isa = PBXGroup;
 			children = (
+				74F4A81E2276314E00E8829B /* GuidesTableViewController.swift */,
 				74F4A81C2276313200E8829B /* GuideTableViewCell.swift */,
 			);
 			path = Guides;
@@ -363,6 +366,7 @@
 				74F4A81A22762FF300E8829B /* GuideListViewModel.swift in Sources */,
 				7475F65D22723AA500CDADFA /* Endpoint.swift in Sources */,
 				74F4A81822762EBA00E8829B /* GuideViewModel.swift in Sources */,
+				74F4A81F2276314E00E8829B /* GuidesTableViewController.swift in Sources */,
 				7475F66122723B3700CDADFA /* Guide.swift in Sources */,
 				74905E88227184FC0062204C /* AppDelegate.swift in Sources */,
 				7475F65F22723ABE00CDADFA /* NetworkClient.swift in Sources */,
