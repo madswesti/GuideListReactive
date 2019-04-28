@@ -22,6 +22,7 @@
 		74905E8F227185000062204C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74905E8E227185000062204C /* Assets.xcassets */; };
 		74905E92227185000062204C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74905E90227185000062204C /* LaunchScreen.storyboard */; };
 		74F4A81822762EBA00E8829B /* GuideViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F4A81722762EBA00E8829B /* GuideViewModel.swift */; };
+		74F4A81A22762FF300E8829B /* GuideListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F4A81922762FF300E8829B /* GuideListViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,7 @@
 		74905E91227185000062204C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		74905E93227185000062204C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		74F4A81722762EBA00E8829B /* GuideViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuideViewModel.swift; sourceTree = "<group>"; };
+		74F4A81922762FF300E8829B /* GuideListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuideListViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -204,6 +206,7 @@
 		74F4A81622762EBA00E8829B /* Guides */ = {
 			isa = PBXGroup;
 			children = (
+				74F4A81922762FF300E8829B /* GuideListViewModel.swift */,
 				74F4A81722762EBA00E8829B /* GuideViewModel.swift */,
 			);
 			path = Guides;
@@ -346,6 +349,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7475F65B22723A6200CDADFA /* HttpMethod.swift in Sources */,
+				74F4A81A22762FF300E8829B /* GuideListViewModel.swift in Sources */,
 				7475F65D22723AA500CDADFA /* Endpoint.swift in Sources */,
 				74F4A81822762EBA00E8829B /* GuideViewModel.swift in Sources */,
 				7475F66122723B3700CDADFA /* Guide.swift in Sources */,
