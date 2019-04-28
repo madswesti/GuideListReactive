@@ -1,3 +1,3 @@
 # GuideListReactive
 
-Small demo project fetching and displaying some data from a backend.
+Small demo project - fetching and displaying some data from a backend.
