@@ -13,6 +13,7 @@
 		7475F65B22723A6200CDADFA /* HttpMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7475F65A22723A6200CDADFA /* HttpMethod.swift */; };
 		7475F65D22723AA500CDADFA /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7475F65C22723AA500CDADFA /* Endpoint.swift */; };
 		7475F65F22723ABE00CDADFA /* NetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7475F65E22723ABD00CDADFA /* NetworkClient.swift */; };
+		7475F66122723B3700CDADFA /* Guide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7475F66022723B3700CDADFA /* Guide.swift */; };
 		74905E88227184FC0062204C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74905E87227184FC0062204C /* AppDelegate.swift */; };
 		74905E8F227185000062204C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74905E8E227185000062204C /* Assets.xcassets */; };
 		74905E92227185000062204C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74905E90227185000062204C /* LaunchScreen.storyboard */; };
@@ -50,6 +51,7 @@
 		7475F65A22723A6200CDADFA /* HttpMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpMethod.swift; sourceTree = "<group>"; };
 		7475F65C22723AA500CDADFA /* Endpoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
 		7475F65E22723ABD00CDADFA /* NetworkClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkClient.swift; sourceTree = "<group>"; };
+		7475F66022723B3700CDADFA /* Guide.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Guide.swift; sourceTree = "<group>"; };
 		74905E84227184FC0062204C /* GuideList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuideList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		74905E87227184FC0062204C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		74905E8E227185000062204C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 		745EA11B227186580083FDF2 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				7475F66022723B3700CDADFA /* Guide.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -293,6 +296,7 @@
 			files = (
 				7475F65B22723A6200CDADFA /* HttpMethod.swift in Sources */,
 				7475F65D22723AA500CDADFA /* Endpoint.swift in Sources */,
+				7475F66122723B3700CDADFA /* Guide.swift in Sources */,
 				74905E88227184FC0062204C /* AppDelegate.swift in Sources */,
 				7475F65F22723ABE00CDADFA /* NetworkClient.swift in Sources */,
 			);
